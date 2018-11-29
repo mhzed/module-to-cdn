@@ -398,7 +398,7 @@
   "@material-ui/core": {
     "var": "window['material-ui']", 
     "versions": {
-      "*" : {
+      ">= 3.6.0" : {
         "development": "https://unpkg.com/@material-ui/core@[version]/umd/material-ui.development.js",
         "production": "https://unpkg.com/@material-ui/core@[version]/umd/material-ui.production.js"
       }
