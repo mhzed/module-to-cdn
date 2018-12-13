@@ -403,5 +403,24 @@
         "production": "https://unpkg.com/@material-ui/core@[version]/umd/material-ui.production.min.js"
       }
     }
-  }
+  },
+  "plotly.js": {
+    "var": "Plotly", 
+    "versions": {
+      ">= 1.0.0" : {
+        "development": "https://unpkg.com/plotly.js@[version]/dist/plotly.js",
+        "production": "https://unpkg.com/plotly.js@[version]/dist/plotly.min.js"
+      }
+    }
+  },
+  "plotly.js/dist/plotly": {
+    "var": "Plotly", 
+    "versions": {
+      ">= 1.0.0" : {
+        "development": "https://unpkg.com/plotly.js@[version]/dist/plotly.js",
+        "production": "https://unpkg.com/plotly.js@[version]/dist/plotly.min.js"
+      }
+    }
+  }  
+
 }
